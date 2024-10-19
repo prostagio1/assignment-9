@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container {
+    width:1170px;
+    margin:0 auto;
+}
+.top-header {
+    background-color: black;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.top-header-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 231px;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;    
+}
+.top-header-text {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+.top-header-text p {
+    line-height: 21px;
+}
+
+.top-header-text a {
+    color:white;
+    text-decoration: underline;
+    line-height: 24px;
+    font-weight: 600;
+}
+.language {
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+}
+.language p {
+    font-size: 14px;
+}
+
+.header-main {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 148px;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    column-gap: 48px;
+}
+.nav-button {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.left-nav-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 190px;
+}
+.right-nav-bar{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.search-box {
+    background-color: #F5F5F5;
+    width:243px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 7px 12px 7px 20px;
+    column-gap: 34px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+.right-icons{
+    display: flex;
+    align-items: center;
+    column-gap:16px;
+}
+.right-icons img {
+    width: 32px;
+    height: 32px;
+
+}
+main {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 16px;
+}
